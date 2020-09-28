@@ -23,6 +23,7 @@
 /* 顶部快捷导航栏 */
 
 .shortcut {
+    min-width: 1200px;
     height: 31px;
     line-height: 31px;
     background-color: #eeeded;
@@ -172,6 +173,7 @@
 /* nav */
 
 .nav {
+    min-width: 1200px;
     height: 45px;
     border-bottom: 2px solid var(--text-red-darker);
 }
@@ -191,7 +193,7 @@
 }
 
 .dropdown .dd {
-    display: none;
+    /* display: none; */
     color: #fff;
     height: 465px;
     margin-top: 2px;
@@ -246,6 +248,7 @@
 /* ----底部---- */
 
 .footer {
+    min-width: 1200px;
     height: 416px;
     background-color: #f5f5f5;
     padding-top: 30px;
@@ -279,4 +282,55 @@
 
 .mod_service_item_intro {
     color: rgb(71, 71, 71);
+}
+
+.mod_help {
+    height: 187px;
+    border-bottom: 1px solid #e7e7e7;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mod_help_app,
+.mod_help_list {
+    margin-top: 20px;
+}
+
+.mod_help_app dt,
+.mod_help_list dt {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.mod_help dd {
+    margin-bottom: 3px;
+}
+
+.mod_help_app dt {
+    padding-left: 15px;
+}
+
+.mod_help_app dd p {
+    color: #202020;
+    margin-left: -9px;
+    font-weight: 600;
+}
+
+.mod_copyright_link,
+.mod_copyright_info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.mod_copyright_link a {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #aaaaaa;
+}
+
+.mod_copyright_link a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
 }
