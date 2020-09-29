@@ -119,3 +119,144 @@
 .live_service li a p {
     font-size: 15px;
 }
+
+.recommend {
+    height: 163px;
+    background-color: rgba(136, 70, 70, 0.3);
+    margin-top: 10px !important;
+}
+
+.recommend_hd {
+    width: 209px;
+    height: 163px;
+    background-color: #5c5251;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.recommend_bd {
+    width: 991px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recommend_hd i {
+    font-size: 80px;
+}
+
+.recommend_hd p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.recommend_bd ul {
+    display: flex;
+}
+
+.recommend_bd li {
+    flex: 1;
+    height: 145px;
+    border-right: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.recommend_bd li a {
+    display: block;
+    height: 100%;
+    text-align: center;
+}
+
+.recommend_bd li a i {
+    font-size: 80px;
+    margin-top: 30px;
+}
+
+.recommend_bd li:last-child {
+    border-right: none;
+}
+
+
+/* floor楼层区 */
+
+.box-hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.tab-list {
+    float: right;
+    height: 30px;
+}
+
+.tab-list {
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.tab-list li {
+    float: left;
+}
+
+.tab-list li a {
+    margin: 0 15px;
+}
+
+.box-bd {
+    height: 361px;
+}
+
+.tab-con {
+    height: 361px;
+}
+
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+.w329 {
+    width: 329px;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.tab-con li {
+    float: left;
+    height: 361px;
+}
+
+.tab-con-list {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.tab-con-list li {
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.tab-con-item {
+    border-bottom: 1px solid #ccc;
+    height: 180px;
+}
