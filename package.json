@@ -1,0 +1,40 @@
+{
+    "name": "ace-mall",
+    "version": "1.0.0",
+    "description": "![Image text](https://github.com/acecoder1997/ace_mall/blob/master/upload/home_preview.png)",
+    "main": "main.js",
+    "directories": {
+        "lib": "lib",
+        "build:dev": "webpack"
+    },
+    "dependencies": {
+        "file-loader": "^6.2.0",
+        "url-loader": "^4.1.1"
+    },
+    "devDependencies": {
+        "css-loader": "^5.0.0",
+        "html-loader": "^1.3.2",
+        "html-webpack-plugin": "^4.5.0",
+        "less": "^3.12.2",
+        "less-loader": "^7.0.2",
+        "style-loader": "^2.0.0",
+        "webpack": "^5.3.2",
+        "webpack-cli": "^4.1.0",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "scripts": {
+        "serve": "webpack serve",
+        "build:dev": "webpack --mode=development",
+        "build:prod": "webpack --mode=production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/acecoder1997/ace_code.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/acecoder1997/ace_code/issues"
+    },
+    "homepage": "https://github.com/acecoder1997/ace_code#readme"
+}
