@@ -14,7 +14,7 @@ module.exports = {
         // 输出路径
         path: resolve(__dirname, 'dist'),
         // 文件名
-        filename: 'index.js'
+        filename: 'js/index.js'
     },
     // 模块 下载 - 使用
     module: {
@@ -53,7 +53,8 @@ module.exports = {
                     // 解析完后html的图片资源会变成： [Object Module]
                     // 解决：关闭url-loader的es6模块化，使用commonjs
                     esModule: false,
-                    name: '[name].[hash:7].[ext]'
+                    name: '[name].[hash:7].[ext]',
+                    outputPath: 'images'
                 }
             }, {
                 test: /\.html$/,
@@ -66,7 +67,8 @@ module.exports = {
                 loader: 'url-loader',
                 options: {
                     limit: 10000,
-                    name: '[name].[hash:7].[ext]'
+                    name: '[name].[hash:7].[ext]',
+                    outputPath: 'font'
                 }
             }
         ]
