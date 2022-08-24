@@ -1,2 +1,2 @@
 # ace_code
-![Image text](https://github.com/acecoder1997/ace_mall/blob/master/upload/home_preview.png)
+![Image text](https://github.com/xxxace/ace_mall/blob/master/src/assets/upload/home_preview.png)
